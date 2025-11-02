@@ -1,0 +1,13 @@
+
+---
+
+### 📄 **requirements.txt**
+```text
+gradio==4.44.0
+joblib
+pandas
+numpy
+scikit-learn
+plotly
+requests
+pytz
