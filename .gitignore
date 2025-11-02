@@ -1,0 +1,8 @@
+energy_forecast_model.joblib
+energy_live.db
+*.db
+*.joblib
+drive/
+*.gsheet
+__pycache__/
+.ipynb_checkpoints/
