@@ -1,8 +1,26 @@
-energy_forecast_model.joblib
-energy_live.db
-*.db
-*.joblib
-drive/
-*.gsheet
+# Python bytecode and caches
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Local datasets (downloaded via python download_data.py)
+data/
+
+# Local model cache (generated via evaluate.py or app.py)
+models/
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
